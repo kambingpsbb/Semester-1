@@ -1,14 +1,1 @@
-import java.util.Random;
-import java.util.Scanner;
-public class Array {
-    public static void main(String[] args) {
-        String [] nama = {"Baldy", "Rifqy", "Fian", "Harahap", "Heri"};
-        Random acak = new Random();
-        int randomindex = acak.nextInt(nama.length);
-        Scanner input = new Scanner(System.in);
-        String namamu;
-        System.out.println("Siapa namamu?");
-        namamu = input.nextLine(); 
-        System.out.println("Jodohmu adalah " + nama [randomindex] );
-    }
-}
+
